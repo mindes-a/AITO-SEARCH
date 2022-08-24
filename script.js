@@ -1,9 +1,23 @@
 const searchbtn = document.getElementById("searchbtn");
+let search;
+
 searchbtn.addEventListener("click",function(){
-	let search = document.getElementById("search").value;
-	location.href = "https://www.google.com/search?q="+ search
+	search = document.getElementById("search").value;
+	location.href = "https://www.google.com/search?q="+ search;
 })
 
 document.addEventListener("keydown",function(e){
-	alert(e.key);
+	if(e.key == "Enter"){
+		search = document.getElementById("search").value;
+		if(search == ""){
+			
+		}else if(search == "　"){
+
+		}else if(search == " "){
+
+		}else{
+			location.href = "https://www.google.com/search?q="+ search;
+		}
+		
+	}
 })
