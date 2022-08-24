@@ -1,0 +1,35 @@
+body{
+	background-color: #f7f6f5;
+}
+.header{
+	text-align: center;
+	margin-top: 10vh;
+}
+.logo{
+	width: 25%;
+}
+.searchbox{
+	margin-top: 2vh;
+	text-align: center;
+}
+.search{
+	height: 5vh;
+	border: none;
+	border-radius: 20px;
+	width: 70%;
+	box-shadow: 2px 3px 3px 3px #e0dfde;
+	font-size: 200%;
+	padding-left: 4%;
+	color: #242423;
+	outline: none;
+}
+.searchbtn{
+	height: 3vh;
+	border: none;
+	border-radius: 10px;
+	width: 25%;
+	box-shadow: 2px 3px 3px 3px #e0dfde;
+	font-size: 160%;
+	margin-top: 4%;
+	color: #474746;
+}
